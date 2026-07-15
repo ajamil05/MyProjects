@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Projects</title>
+    <title>Abbas Projects / My Projects</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background: linear-gradient(135deg, #1f2937, #111827);
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 900px;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 15px;
+        }
+
+        p {
+            font-size: 1.1rem;
+            color: #d1d5db;
+            margin-bottom: 50px;
+        }
+
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 30px;
+        }
+
+        .card {
+            background: white;
+            color: #111827;
+            border-radius: 15px;
+            padding: 35px;
+            box-shadow: 0 15px 40px rgba(0,0,0,.25);
+            transition: .25s;
+        }
+
+        .card:hover {
+            transform: translateY(-8px);
+        }
+
+        .card h2 {
+            margin-bottom: 15px;
+        }
+
+        .card p {
+            color: #555;
+            margin-bottom: 30px;
+        }
+
+        .button {
+            display: inline-block;
+            text-decoration: none;
+            background: #2563eb;
+            color: white;
+            padding: 14px 30px;
+            border-radius: 8px;
+            font-weight: bold;
+            transition: .2s;
+        }
+
+        .button:hover {
+            background: #1d4ed8;
+        }
+
+        footer {
+            margin-top: 60px;
+            color: #9ca3af;
+            font-size: .9rem;
+        }
+
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+    <h1>My Chatbot Projects</h1>
+
+    <p>
+        Select one of the available AI assistants below.
+        Select one of the available Projects below.
+    </p>
+
+    <div class="cards">
+
+        <div class="card">
+            <h2>🪟 Windows 11 Onboarder</h2>
+
+            <p>
+                Learn about Windows 11 migration, deployment and onboarding.
+            </p>
+
+            <a class="button" href="windows11.html">
+                Open Chatbot
+            </a>
+        </div>
+
+        <div class="card">
+            <h2>✍️ AI Meeting Assistant</h2>
+
+            <p>
+                Rewrite AI-generated content into more natural, human-like writing.
+                Gives you key notes and summary of a long meeting by using the meeting transcription
+            </p>
+
+            <a class="button" href="MeetingAssistant.html">
+                Open Chatbot
+            </a>
+        </div>
+         <div class="card">
+            <h2>AI Humaizer</h2>
+
+            <p>
+               Humaizezs AI text
+            </p>
+
+            <a class="button" href="AIHumanizer.html">
+                Open Chatbot
+            </a>
+        </div>
+
+    </div>
+
+    <footer>
+        Powered by Abbas Jamil
+    </footer>
+
+</div>
+
+</body>
+</html>
